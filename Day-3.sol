@@ -15,5 +15,13 @@ To complete this challenge, do the following.
 pragma solidity >=0.5.0 < 0.9.0;
 
 contract FunctionArgument{
+  uint x;
 
+  function set(uint num) public{
+    x = num;
+  }
+
+  function get() public view returns(uint){
+    return x;
+  }
 }
