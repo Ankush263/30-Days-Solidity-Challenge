@@ -24,5 +24,14 @@ Note - Function will be public.
 pragma solidity >=0.5.0 <0.9.0;
 
 contract Day2 {
-    
+    function nthTerm(uint n, uint a, uint b, uint c) public pure returns(uint){
+      uint[100] memory s;
+      s[1] = a;
+      s[2] = b;
+      s[3] = c;
+      for(uint i = 4; i <= n; i++){
+        s[i] = s[i-1] + s[i-2] + s[i-3];
+      }
+      return s[n];
+    }
 }
