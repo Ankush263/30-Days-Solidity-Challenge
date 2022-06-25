@@ -14,6 +14,17 @@ Note - Function will be public.
 pragma solidity >=0.5.0 <0.9.0;
 
 contract Day3 {
-  
-      
+  function prime(uint n)public pure returns(uint){
+    uint count = 0;
+    for(uint i = 1; i <= n/2; i++){
+      if(n % i == 0){
+        count++;
+      }
+    }
+    if(count == 1){
+      return 1;
+    }else {
+      return 0;
+    }
+  }
 }
