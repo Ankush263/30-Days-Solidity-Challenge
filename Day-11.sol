@@ -14,5 +14,19 @@ Note - Function will be public.
 pragma solidity >=0.5.0 <0.9.0;
 
 contract Day5 {
-   
+  function palindrome(uint n) public pure returns(uint){
+    uint sum = 0;
+    uint x = 0;
+    uint num = n;
+    while(num != 0){
+      x = num%10;
+      sum = sum*10 + x;
+      num = num/10;
+    }
+    if(sum == n){
+      return 1;
+    }else{
+      return 0;
+    }
+  }
 }
