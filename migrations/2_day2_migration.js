@@ -1,5 +1,5 @@
-const Function = artifacts.require("Functions")
+const Day2 = artifacts.require("Day2")
 
 module.exports = function (deployer){
-  deployer.deploy(Function);
+  deployer.deploy(Day2);
 };

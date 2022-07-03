@@ -10,7 +10,7 @@ Note - Function will be public.
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.9.0;
 
-contract Day2 {
+contract Day14 {
   function even(uint[] memory arr, uint length) public pure returns(uint[] memory){
     
     for(uint i = 0; i < length; i++){

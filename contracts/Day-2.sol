@@ -10,7 +10,7 @@ In the same way you have to create a local variable and initialised it with 20 a
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.9.0;
 
-contract Function{
+contract Day2{
     uint x = 10;
 
     function returnStateVariable() public view returns(uint){
