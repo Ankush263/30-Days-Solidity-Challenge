@@ -13,7 +13,7 @@ Note - Function will be public.
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.9.0;
 
-contract Day5 {
+contract Day11 {
   function palindrome(uint n) public pure returns(uint){
     uint sum = 0;
     uint x = 0;

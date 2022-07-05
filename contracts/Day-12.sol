@@ -11,7 +11,7 @@ Note - Function will be public.
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.9.0;
 
-contract Day6 {
+contract Day12 {
     function reverseDigit(uint n) public pure returns(uint){
     uint sum = 0;
     uint x = 0;
