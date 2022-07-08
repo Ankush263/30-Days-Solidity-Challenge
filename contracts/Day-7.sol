@@ -13,7 +13,7 @@ Note - Function will be public.
 // SPDX-License-Identifier: aIT
 pragma solidity >=0.5.0 <0.9.0;
 
-contract day7 {
+contract Day7 {
     function digitSum(int n)public pure returns(int){
       int x = 0;
       int sum = 0;
